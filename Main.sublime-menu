@@ -1,0 +1,42 @@
+[
+{
+  "id": "tools",
+  "children": [
+  {
+    "id": "VerilogFormatter_tools",
+    "caption": "VerilogFormatter",
+    "children": [
+    {
+      "caption": "Format",
+      "command": "verilog_formatter"
+    }]
+  }]
+},
+{
+  "id": "preferences",
+  "children": [
+  {
+    "id": "package-settings",
+    "children": [
+    {
+      "caption": "VerilogFormatter",
+      "children": [
+      {
+        "command": "open_file",
+        "args":
+        {
+          "file": "${packages}/VerilogFormatter/VerilogFormatter.sublime-settings"
+        },
+        "caption": "Settings – Default"
+      },
+      {
+        "command": "open_file",
+        "args":
+        {
+          "file": "${packages}/User/VerilogFormatter.sublime-settings"
+        },
+        "caption": "Settings – User"
+      }]
+    }]
+  }]
+}]

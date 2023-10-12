@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "VerilogFormatter: Format",
+        "command": "verilog_formatter"
+    },
+]

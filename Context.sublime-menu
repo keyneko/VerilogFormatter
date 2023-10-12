@@ -1,0 +1,16 @@
+[
+    {
+        "caption" : "-"
+    },
+    {
+        "id": "VerilogFormatter",
+        "caption": "VerilogFormatter",
+        "children":
+        [
+            {
+                "caption": "Format",
+                "command": "verilog_formatter"
+            },
+        ]
+    }
+]

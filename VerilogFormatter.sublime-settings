@@ -1,0 +1,82 @@
+{
+    // Format various assignments
+    // Possible values: {align, flush-left, preserve, infer}
+    // Default value: infer
+    "assignment_statement_alignment": "infer",
+
+    // Format case items
+    // Possible values: {align, flush-left, preserve, infer}
+    // Default value: infer
+    "case_items_alignment": "infer",
+
+    // Format class member variables
+    // Possible values: {align, flush-left, preserve, infer}
+    // Default value: infer
+    "class_member_variables_alignment": "infer",
+
+    // If true, always expand coverpoints
+    // Possible values: {true, false}
+    // Default value: false
+    "expand_coverpoints": "true",
+
+    // Format formal parameters
+    // Possible values: {align, flush-left, preserve, infer}
+    // Default value: infer
+    "formal_parameters_alignment": "infer",
+
+    // Indent formal parameters
+    // Possible values: {indent,wrap}
+    // Default value: wrap
+    "formal_parameters_indentation": "wrap",
+
+    // Format named actual parameters
+    // Possible values: {align, flush-left, preserve, infer}
+    // Default value: infer
+    "named_parameter_alignment": "infer",
+
+    // Indent named parameter assignments
+    // Possible values: {indent,wrap}
+    // Default value: wrap
+    "named_parameter_indentation": "wrap",
+
+    // Format named port connections
+    // Possible values: {align, flush-left, preserve, infer}
+    // Default value: infer
+    "named_port_alignment": "infer",
+
+    // Indent named port connections
+    // Possible values: {indent,wrap}
+    // Default value: wrap
+    "named_port_indentation": "wrap",
+
+    // Format net/variable declarations
+    // Possible values: {align, flush-left, preserve, infer}
+    // Default value: infer
+    "net_variable_alignment": "infer",
+
+    // Format port declarations
+    // Possible values: {align, flush-left, preserve, infer}
+    // Default value: infer
+    "port_declarations_alignment": "infer",
+
+    // Indent port declarations
+    // Possible values: {indent,wrap}
+    // Default value: wrap
+    "port_declarations_indentation": "wrap",
+
+    // Format struct/union members
+    // Possible values: {align, flush-left, preserve, infer}
+    // Default value: infer
+    "struct_union_members_alignment": "infer",
+
+    // '''If true, let the formatter attempt to optimize line wrapping decisions where wrapping is needed, else leave
+    // them unformatted. This is a short-term measure to reduce risk-of-harm.
+    // Possible values: {true, false}
+    // Default value: false
+    "try_wrap_long_lines": "true",
+
+    // Run the Verible under Windows Subsystem for Linux
+    // Possible values: {true, false}
+    // Default value: true
+    "windows_subsystem_for_linux": "true"
+}
